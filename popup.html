@@ -1,10 +1,32 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="button.css">
+    <title>Exercise Popup</title>
+    <style>
+      body {
+        text-align: center;
+      }
+      #exerciseImage {
+        width: 100px;
+        margin: 5px;
+      }
+      button {
+        margin: 5px;
+        outline: none;
+      }
+      button:hover {
+        outline: #022668;
+      }
+    </style>
   </head>
   <body>
-    <button id="changeColor"></button>
-    <script src="popup.js"></script>
+      <img src='./images/walking_stickman128.png' id='exerciseImage'>
+      <button id="min15" value="15">15 Minutes</button>
+      <button id="min30" value="30">30 Minutes</button>
+      <button id="min60" value="60">60 Minutes</button>
+      <button id="min120" value="120">120 Minutes</button>
+      <button id="min180" value="180">180 Minutes</button>
+      <button id="cancelAlarm">Cancel Alarm</button>
+   <script src="popup.js"></script>
   </body>
 </html>

@@ -1,1 +1,1 @@
-# add-bookmark
+Exercise Timer chrome extension
